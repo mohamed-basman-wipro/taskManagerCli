@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "description": "Prepare the PPT for presentation",
+        "due_date": "2025-03-23",
+        "category": "Office"
+    },
+    {
+        "id": 2,
+        "description": "Prepare weekly report",
+        "due_date": "2025-03-25",
+        "category": "Office"
+    },
+    {
+        "id": 3,
+        "description": "Prepare research paper",
+        "due_date": "2025-03-28",
+        "category": "College"
+    }
+]

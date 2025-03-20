@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: task_manager
+Version: 0.1
+Summary: Task Manager Module WHeel Package
+Author-email: Mohamed Basman <mohamedbasman.m@gmail.com>
+Requires-Python: >=3

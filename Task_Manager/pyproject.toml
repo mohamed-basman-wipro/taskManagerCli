@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=0.61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task_manager" 
+version = "0.1"
+authors = [ { name = "Mohamed Basman", email = "mohamedbasman.m@gmail.com"}]
+description = "Task Manager Module WHeel Package"
+requires-python = ">=3"
+
+[tool.setuptools]
+packages = ["task_manager"]
+
+[project.scripts]
+task-manager = "task_manager.cli:main"
