@@ -14,12 +14,12 @@ Features:
 
 Folder Structure:
 
-Task_Manager/
-├── dist/                   # Contains built wheel and sdist files
-├── task_manager/           # Main package folder
-│   ├── __init__.py
-│   ├── cli.py              # CLI interface logic
-│   ├── task_manager.py     # Core task manager functions
-│   └── tasks.json          # Task database
-├── pyproject.toml          # Build configuration
-└── README.md               # Project description (this file)
+    Task_Manager/
+    ├── dist/                   # Contains built wheel and sdist files
+    ├── task_manager/           # Main package folder
+    │   ├── __init__.py
+    │   ├── cli.py              # CLI interface logic
+    │   ├── task_manager.py     # Core task manager functions
+    │   └── tasks.json          # Task database
+    ├── pyproject.toml          # Build configuration
+    └── README.md               # Project description (this file)
