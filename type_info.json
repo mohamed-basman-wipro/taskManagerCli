@@ -1,0 +1,76 @@
+[
+    {
+        "path": "cli.py",
+        "line": 9,
+        "func_name": "main",
+        "type_comments": [
+            "() -> None"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "task_manager.py",
+        "line": 12,
+        "func_name": "load_tasks",
+        "type_comments": [
+            "() -> List",
+            "() -> List[Dict[str, Union[int, str]]]"
+        ],
+        "samples": 5
+    },
+    {
+        "path": "task_manager.py",
+        "line": 19,
+        "func_name": "save_tasks",
+        "type_comments": [
+            "(List) -> None",
+            "(List[Dict[str, Union[int, str]]]) -> None"
+        ],
+        "samples": 5
+    },
+    {
+        "path": "task_manager.py",
+        "line": 24,
+        "func_name": "add_task",
+        "type_comments": [
+            "(str, str, str) -> str"
+        ],
+        "samples": 3
+    },
+    {
+        "path": "task_manager.py",
+        "line": 37,
+        "func_name": "list_tasks",
+        "type_comments": [
+            "() -> List[List[Union[int, str]]]"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "task_manager.py",
+        "line": 49,
+        "func_name": "flush_task",
+        "type_comments": [
+            "(int) -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "task_manager.py",
+        "line": 61,
+        "func_name": "flush_all_tasks",
+        "type_comments": [
+            "() -> str"
+        ],
+        "samples": 1
+    },
+    {
+        "path": "task_manager.py",
+        "line": 70,
+        "func_name": "delete_all_tasks",
+        "type_comments": [
+            "() -> str"
+        ],
+        "samples": 1
+    }
+]

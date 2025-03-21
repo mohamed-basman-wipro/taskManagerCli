@@ -1,0 +1,27 @@
+from typing import (
+    Any,
+    Dict,
+    List,
+    Union,
+)
+
+
+def add_task(description: str, due_date: str, category: str) -> str: ...
+
+
+def delete_all_tasks() -> str: ...
+
+
+def flush_all_tasks() -> str: ...
+
+
+def flush_task(task_id: int) -> str: ...
+
+
+def list_tasks() -> str: ...
+
+
+def load_tasks() -> Any: ...
+
+
+def save_tasks(tasks: List[Union[Dict[str, Union[int, str]], Any]]) -> None: ...
